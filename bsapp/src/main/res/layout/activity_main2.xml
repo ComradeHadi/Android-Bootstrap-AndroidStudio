@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnBig"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:text="Primary"
+        bootstrapbutton:bb_icon_right="fa-cloud"
+        bootstrapbutton:bb_roundedCorners="true"
+        bootstrapbutton:bb_type="primary"
+        bootstrapbutton:bb_text_gravity="right" />
+
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+        android:id="@+id/lblOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        fontawesometext:fa_icon="fa-github"
+        android:layout_below="@+id/btnBig"
+        android:layout_alignLeft="@+id/btnBig"
+        android:layout_alignStart="@+id/btnBig" />
+
+</RelativeLayout>

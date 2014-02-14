@@ -1,2 +1,2 @@
-include ':AndroidBootstrap', ':bsapp'
+include ':AndroidBootstrap', ':bsapp', ':valentine'
 include ':AndroidBootstrapTest'

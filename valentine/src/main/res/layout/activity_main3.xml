@@ -50,7 +50,8 @@
             android:id="@+id/limageView"
             android:src="@drawable/lefth"
             android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/rimageView" />
+            android:layout_toLeftOf="@+id/rimageView"
+            android:layout_weight="1"/>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -58,7 +59,8 @@
             android:id="@+id/rimageView"
             android:src="@drawable/righth"
             android:layout_alignTop="@+id/limageView"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"/>
     </LinearLayout>
 
 

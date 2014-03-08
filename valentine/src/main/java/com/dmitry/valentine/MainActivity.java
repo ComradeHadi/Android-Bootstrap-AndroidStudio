@@ -1,18 +1,18 @@
 package com.dmitry.valentine;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 
 public class MainActivity extends Activity {
-
-//    private BootstrapButton prevBtn, nextBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
-
-        PagesCompoundClass mainViewTop = (PagesCompoundClass) findViewById(R.id.mainViewBot);
-        mainViewTop.setClickable(false);
+        setContentView(R.layout.activity_main);
     }
 }
